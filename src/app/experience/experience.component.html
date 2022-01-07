@@ -8,80 +8,80 @@
 
     <div class=" mt-10 p-8">
         <div class="flex flex-row place-content-center my-2">
-            <button (click)="showSoftware()" class="bg-blue-400 rounded-full px-4 py-1 text-blue-100 focus:bg-blue-700 ">Software Development</button>
-            <button (click)="showGraphics()" class="ml-2 bg-blue-400 rounded-full px-4 py-1 text-blue-100 focus:bg-blue-700">Graphic Design</button>
+            <button (click)="showSoftware()" class="sm:bg-blue-400 rounded-full px-4 py-1 text-blue-100 focus:bg-blue-700 ">Software Development</button>
+            <button (click)="showGraphics()" class="ml-2 sm:bg-blue-400 rounded-full px-4 py-1 text-blue-100 focus:bg-blue-700">Graphic Design</button>
         </div>
 
 
         <div [hidden]="graphics">
             <div class="flex flex-col sm:flex-row place-content-center mx-12">
-                <div class="relative">
-                    <img src="assets/img/bw-logo.webp" alt="" class="rounded-t-xl sm:rounded-none sm:rounded-tl-2xl opacity-75 block h-auto ease-in w-full hover:opacity-10 peer">
-                    <p class="absolute translate-x-1/2 translate-y-1/2 top-1/2 text-center ease-in hover:p-12 opacity-0 peer-hover:opacity-100">Corporate Logo Design</p>
+                <div class="tgug-overlay-container">
+                    <img src="assets/img/bw-logo.webp" alt="" class="rounded-t-xl sm:rounded-none sm:rounded-tl-2xl project-image">
+                    <p class="tgug-overlay-text">Corporate Logo Design</p>
 
                 </div>
-                <div class="relative">
-                    <img src="assets/img/bw-lettrhead.webp" alt="" class="opacity-75 block h-auto ease-in w-full hover:opacity-10 peer">
-                    <p class="absolute translate-x-1/2 translate-y-1/2 top-1/2 text-center ease-in hover:p-12 opacity-0 peer-hover:opacity-100">Corporate Letterhead Design</p>
+                <div class="tgug-overlay-container">
+                    <img src="assets/img/bw-lettrhead.webp" alt="" class="project-image">
+                    <p class="tgug-overlay-text">Corporate Letterhead Design</p>
 
                 </div>
-                <div class="relative">
-                    <img src="assets/img/bw-bjacked.webp" alt="" class="sm:rounded-none sm:rounded-tr-2xl opacity-75 block h-auto ease-in w-full hover:opacity-10 peer">
-                    <p class="absolute translate-x-1/2 translate-y-1/2 top-1/2 text-center ease-in hover:p-12 opacity-0 peer-hover:opacity-100">Corporate Book Jacket Design</p>
-
-                </div>
-
-            </div>
-            <div class="flex flex-col sm:flex-row place-content-center mx-12">
-                <div class="relative">
-                    <img src="assets/img/bw-cup.webp" alt="" class="opacity-75 block h-auto ease-in w-full hover:opacity-10 peer">
-                    <p class="absolute translate-x-1/2 translate-y-1/2 top-1/2 text-center ease-in hover:p-12 opacity-0 peer-hover:opacity-100">Corporate Mug Design</p>
-                </div>
-                <div class="relative">
-                    <img src="assets/img/bw-env.webp" alt="" class="opacity-75 block h-auto ease-in w-full hover:opacity-10 peer">
-                    <p class="absolute translate-x-1/2 translate-y-1/2 top-1/2 text-center ease-in hover:p-12 opacity-0 peer-hover:opacity-100">Corporate Envelope Design</p>
-
-                </div>
-                <div class="relative">
-                    <img src="assets/img/bw-shopbag.webp" alt="" class="opacity-75 block h-auto ease-in w-full hover:opacity-10 peer">
-                    <p class="absolute translate-x-1/2 translate-y-1/2 top-1/2 text-center ease-in hover:p-12 opacity-0 peer-hover:opacity-100">Corporate Shopping Bag Design</p>
+                <div class="tgug-overlay-container">
+                    <img src="assets/img/bw-bjacked.webp" alt="" class="sm:rounded-none sm:rounded-tr-2xl project-image">
+                    <p class="tgug-overlay-text">Corporate Book Jacket Design</p>
 
                 </div>
 
             </div>
             <div class="flex flex-col sm:flex-row place-content-center mx-12">
-                <div class="relative">
-                    <img src="assets/img/bw-sticker.webp" alt="" class="opacity-75 block h-auto ease-in w-full hover:opacity-10 peer">
-                    <p class="absolute translate-x-1/2 translate-y-1/2 top-1/2 text-center ease-in hover:p-12 opacity-0 peer-hover:opacity-100">Corporate Sticker Design</p>
+                <div class="tgug-overlay-container">
+                    <img src="assets/img/bw-cup.webp" alt="" class="opacity-75 project-image">
+                    <p class="tgug-overlay-text">Corporate Mug Design</p>
+                </div>
+                <div class="tgug-overlay-container">
+                    <img src="assets/img/bw-env.webp" alt="" class="project-image">
+                    <p class="tgug-overlay-text">Corporate Envelope Design</p>
 
                 </div>
-                <div class="relative">
-                    <img src="assets/img/bw-bcard.webp" alt="" class="opacity-75 block h-auto ease-in w-full hover:opacity-10 peer">
-                    <p class="absolute translate-x-1/2 translate-y-1/2 top-1/2 text-center ease-in hover:p-12 opacity-0 peer-hover:opacity-100">Corporate Business Card Design</p>
+                <div class="tgug-overlay-container">
+                    <img src="assets/img/bw-shopbag.webp" alt="" class="project-image">
+                    <p class="tgug-overlay-text">Corporate Shopping Bag Design</p>
 
                 </div>
-                <div class="relative">
-                    <img src="assets/img/bw-vcard.webp" alt="" class="opacity-75 block h-auto ease-in w-full hover:opacity-10 peer">
-                    <p class="absolute translate-x-1/2 translate-y-1/2 top-1/2 text-center ease-in hover:p-12 opacity-0 peer-hover:opacity-100">Corporate VCard Design</p>
+
+            </div>
+            <div class="flex flex-col sm:flex-row place-content-center mx-12">
+                <div class="tgug-overlay-container">
+                    <img src="assets/img/bw-sticker.webp" alt="" class="project-image">
+                    <p class="tgug-overlay-text">Corporate Sticker Design</p>
+
+                </div>
+                <div class="tgug-overlay-container">
+                    <img src="assets/img/bw-bcard.webp" alt="" class="project-image">
+                    <p class="tgug-overlay-text">Corporate Business Card Design</p>
+
+                </div>
+                <div class="tgug-overlay-container">
+                    <img src="assets/img/bw-vcard.webp" alt="" class="project-image">
+                    <p class="tgug-overlay-text">Corporate VCard Design</p>
 
                 </div>
 
             </div>
 
             <div class="flex flex-col sm:flex-row place-content-center mx-12">
-                <div class="relative">
-                    <img src="assets/img/bw-clock.webp" alt="" class="opacity-75 block h-auto ease-in w-full hover:opacity-10 peer">
-                    <p class="absolute translate-x-1/2 translate-y-1/2 top-1/2 text-center ease-in hover:p-12 opacity-0 peer-hover:opacity-100">Corporate Clock Design</p>
+                <div class="tgug-overlay-container">
+                    <img src="assets/img/bw-clock.webp" alt="" class="project-image">
+                    <p class="tgug-overlay-text">Corporate Clock Design</p>
 
                 </div>
-                <div class="relative">
-                    <img src="assets/img/resumelow.webp" alt="" class="opacity-75 block h-auto ease-in w-full hover:opacity-10 peer">
-                    <p class="absolute translate-x-1/2 translate-y-1/2 top-1/2 text-center ease-in hover:p-12 opacity-0 peer-hover:opacity-100">Fred Musisi Resume Design</p>
+                <div class="tgug-overlay-container">
+                    <img src="assets/img/resumelow.webp" alt="" class="project-image">
+                    <p class="tgug-overlay-text">Fred Musisi Resume Design</p>
 
                 </div>
-                <div class="relative">
-                    <img src="assets/img/fredlogolow.webp" alt="" class="opacity-75 block h-auto ease-in w-full hover:opacity-10 peer">
-                    <p class="absolute translate-x-1/2 translate-y-1/2 top-1/2 text-center ease-in hover:p-12 opacity-0 peer-hover:opacity-100">Fred Musisi Logo Design</p>
+                <div class="tgug-overlay-container">
+                    <img src="assets/img/fredlogolow.webp" alt="" class="project-image">
+                    <p class="tgug-overlay-text">Fred Musisi Logo Design</p>
 
                 </div>
 
@@ -92,57 +92,57 @@
 
         <div [hidden]="software">
             <div class="flex flex-col sm:flex-row place-content-center mx-12">
-                <div class="relative">
-                    <a href="http://ecom.ugtechguys.com" target="_blank">
-                        <img src="assets/img/clickshoplow.webp" alt="" class="rounded-t-xl sm:rounded-none sm:rounded-tl-2xl opacity-75 block h-auto ease-in w-full hover:opacity-10 peer">
-                        <p class="absolute translate-x-1/2 translate-y-1/2 top-1/2 text-center ease-in hover:p-12 opacity-0 peer-hover:opacity-100">
-                            ClickShop E-Commerce
-                            <br>
-                            <span class="bg-blue-400 p-1 rounded-full"> Click to View Project</span>
-                        </p>
-                    </a>
 
-                </div>
-                <div class="relative">
-                    <a href="http://butcher.ugtechguys.com" target="_blank">
-                        <img src="assets/img/harunahbutcherlow.webp" alt="" class=" opacity-75 block h-auto ease-in w-full hover:opacity-10 peer">
-                        <p class="absolute translate-x-1/2 translate-y-1/2 top-1/2 text-center ease-in hover:p-12 opacity-0 peer-hover:opacity-100">
-                            Harunah Butchery
-                            <br>
-                            <span class="bg-blue-400 p-1 rounded-full"> Click to View Project</span>
-                        </p>
-                    </a>
-                </div>
-                <div class="relative">
-                    <a href="http://cocis.ugtechguys.com" target="_blank">
-                        <img src="assets/img/cocislow.webp" alt="" class=" sm:rounded-none sm:rounded-tr-2xl opacity-75 block h-auto ease-in w-full hover:opacity-10 peer">
-                        <p class="absolute translate-x-1/2 translate-y-1/2 top-1/2 text-center ease-in hover:p-12 opacity-0 peer-hover:opacity-100">
-                            COCIS ALUMNI CMS
-                            <br>
-                            <span class="bg-blue-400 p-1 rounded-full"> Click to View Project</span>
-                        </p>
-                    </a>
+                <a href="http://ecom.ugtechguys.com" target="_blank" class="r tgug-overlay-container">
+                    <img src="assets/img/clickshoplow.webp" alt="" class="rounded-t-xl sm:rounded-none sm:rounded-tl-2xl project-image">
+                    <p class="tgug-overlay-text">
+                        ClickShop E-Commerce
+                        <br>
+                        <span class=" p-1 rounded-full"> Click to View Project</span>
+                    </p>
+                </a>
 
-                </div>
+
+
+                <a href="http://butcher.ugtechguys.com" target="_blank" class=" tgug-overlay-container">
+                    <img src="assets/img/harunahbutcherlow.webp" alt="" class=" block project-image">
+                    <p class="tgug-overlay-text">
+                        Harunah Butchery
+                        <br>
+                        <span class=" p-1 rounded-full"> Click to View Project</span>
+                    </p>
+                </a>
+
+
+                <a href="http://cocis.ugtechguys.com" target="_blank" class="tgug-overlay-container">
+                    <img src="assets/img/cocislow.webp" alt="" class=" sm:rounded-none sm:rounded-tr-2xl project-image">
+                    <p class="tgug-overlay-text">
+                        COCIS ALUMNI CMS
+                        <br>
+                        <span class=" p-1 rounded-full"> Click to View Project</span>
+                    </p>
+                </a>
+
+
 
             </div>
 
             <div class="flex flex-col sm:flex-row place-content-center mx-12">
-                <div class="relative">
-                    <img src="assets/img/CFBElectronics.webp" alt="" class=" opacity-75 block h-auto w-full hover:opacity-10 peer">
-                    <p class="absolute translate-x-1/2 translate-y-1/2 top-1/2 text-center ease-in hover:p-12 opacity-0 peer-hover:opacity-100">
+                <div class="tgug-overlay-container">
+                    <img src="assets/img/CFBElectronics.webp" alt="" class="project-image">
+                    <p class="tgug-overlay-text">
                         CFB Electronics E-Commerce
                         <br>
                     </p>
                 </div>
-                <div class="relative">
-                    <img src="assets/img/airlinelow.webp" alt="" class="opacity-75 block h-auto w-full hover:opacity-10 peer">
-                    <p class="absolute translate-x-2/3 translate-y-1/2 top-1/2 text-center ease-in hover:p-12 opacity-0 peer-hover:opacity-100">
+                <div class="tgug-overlay-container">
+                    <img src="assets/img/airlinelow.webp" alt="" class="project-image">
+                    <p class="tgug-overlay-text">
                         Airline Windows App
                         <br>
                     </p>
                 </div>
-                <div class="relative">
+                <div class="tgug-overlay-container">
 
 
 
